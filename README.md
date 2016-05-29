@@ -1,2 +1,4 @@
-# moim-hossain
-The portfolio web site for myself
+# Source code for MoimHossain.com
+
+This is the source code for my personal web site.
+

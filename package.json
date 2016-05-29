@@ -1,0 +1,30 @@
+{
+  "name": "moim-hossain-website",
+  "version": "1.0.0",
+  "description": "This is the source code for my web site",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moim Hossain",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-react-require": "^2.1.0",
+    "babel-polyfill": "^6.7.2",
+    "babel-runtime": "^6.6.1",
+    "classnames": "^2.2.3",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-router": "^2.0.1",
+    "require-dot-file": "^0.4.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.2",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.6.0",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "webpack": "^1.12.14"
+  }
+}

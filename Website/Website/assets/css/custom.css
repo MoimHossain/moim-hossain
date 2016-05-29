@@ -1,0 +1,153 @@
+.banner {
+  background-image: url(https://drscdn.500px.org/photo/142964157/m%3D900/24ba757c4f7c69d5556102edea0777d9)!important;
+  background-size:100%!important;
+  -moz-background-size:100% 100%!important;
+  -webkit-background-size:100% 100%!important;
+  background-repeat: no-repeat !important;  
+  background-position: center !important; 
+}
+
+.MoimHossainImage {
+  width:400!important;
+  height:400px!important;
+  background-image: url(images/MoimHossain.jpg)!important;
+  border-radius: 200px!important;
+}
+
+.MoimHossainSmallImage {
+  content: url(images/MoimHossain.jpg)!important;
+}
+  .masthead.segment {
+      min-height: 600px;
+      padding: 1em 0em;
+    }
+    .masthead .logo.item img {
+      margin-right: 1em;
+    }
+    .masthead .ui.menu .ui.button {
+      margin-left: 0.5em;
+    }
+    .masthead h1.ui.header {
+      margin-top: 3em;
+      margin-bottom: 0em;
+      font-size: 4em;
+      font-weight: normal;
+    }
+    .masthead h2 {
+      font-size: 1.7em;
+      font-weight: normal;
+    }
+
+    .ui.vertical.stripe {
+      padding: 8em 0em;
+    }
+    .ui.vertical.stripe h3 {
+      font-size: 2em;
+    }
+    .ui.vertical.stripe .button + h3,
+    .ui.vertical.stripe p + h3 {
+      margin-top: 3em;
+    }
+    .ui.vertical.stripe .floated.image {
+      clear: both;
+    }
+    .ui.vertical.stripe p {
+      font-size: 1.33em;
+    }
+    .ui.vertical.stripe .horizontal.divider {
+      margin: 3em 0em;
+    }
+
+    .quote.stripe.segment {
+      padding: 0em;
+    }
+    .quote.stripe.segment .grid .column {
+      padding-top: 5em;
+      padding-bottom: 5em;
+    }
+
+    .footer.segment {
+      padding: 5em 0em;
+    }
+
+    .secondary.pointing.menu .toc.item {
+      display: none;
+    }
+
+    @media only screen and (max-width: 700px) {
+      .ui.fixed.menu {
+        display: none !important;
+      }
+      .secondary.pointing.menu .item,
+      .secondary.pointing.menu .menu {
+        display: none;
+      }
+      .secondary.pointing.menu .toc.item {
+        display: block;
+      }
+      .masthead.segment {
+        min-height: 300px;
+      }
+      .masthead h1.ui.header {
+        font-size: 2em;
+        margin-top: 1.5em;
+      }
+      .masthead h2 {
+        margin-top: 0.5em;
+        font-size: 1.5em;
+      }
+    }
+}
+}
+
+.top-margin-10 
+{
+	margin-top: 10px !important;
+}
+
+.left-margin-20 
+{
+	margin-left: 20px !important;
+}
+
+.both-margin-20 {
+	margin-left: 20px !important;
+	margin-right: 20px !important;
+	padding-right: 20px !important;
+}
+
+.border-visible {
+	border: solid 1px #FF0000;
+}
+
+.cardHeight {
+	height: 300px !important;
+}
+
+.cardwidth {
+	width: 1024px !important;
+}
+
+.negative-counter {
+	color: #FF0000;
+}
+
+.positive-counter {
+	color: #0080FF;
+}
+
+.emphasized-counter {
+	text-align: right;
+	padding-top: 36px;
+	font-weight: bold;
+	font-size: 70pt;
+}
+
+.padded-segments {
+	padding-left: 40px !important;
+	padding-top: 40px !important;
+}
+
+.release-table {
+	width: 80%  !important;
+}
