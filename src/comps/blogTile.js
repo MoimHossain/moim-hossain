@@ -21,7 +21,7 @@ export default class BlogTile extends Component {
   	render() {
         var entry = this.props.entry;        
   	    return (
-            <div className="ui stacked segment">
+            <div className="ui stacked segment">            
               <h3 className="header" onClick={this.onOpenBlog.bind(this)}>{entry.title.$t}</h3>
               <div className="ui divider"></div>
               <Html html={entry.content.$t}></Html>              

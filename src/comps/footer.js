@@ -1,6 +1,7 @@
 
 import React from 'react';
 import {Component} from 'react';
+import Html from './html';
 
 export default class Footer extends Component {
 	constructor(props) {
@@ -101,7 +102,7 @@ export default class Footer extends Component {
                     </div>  
                   </div>
                 </div>
-                <div className="seven wide column">
+                <div className="three wide column">
                   <h4 className="ui inverted header">Contact</h4>
                   <div className="ui inverted link list">
 
@@ -119,6 +120,9 @@ export default class Footer extends Component {
                     </div>                                     
 
                   </div>                                    
+                </div>
+                <div >
+                  <Html html='<a href="http://feedjit.com/ir1/0879a6ca67ae4c255d755758388439ab/"><img src="http://feedjit.com/b/0879a6ca67ae4c255d755758388439ab.png" alt="" border="0" ISMAP /></a>'></Html> 
                 </div>
               </div>
             </div>

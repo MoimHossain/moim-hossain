@@ -27098,6 +27098,10 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
+	var _html = __webpack_require__(319);
+
+	var _html2 = _interopRequireDefault(_html);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var Footer = function (_Component) {
@@ -27330,7 +27334,7 @@
 	            ),
 	            _react2.default.createElement(
 	              'div',
-	              { className: 'seven wide column' },
+	              { className: 'three wide column' },
 	              _react2.default.createElement(
 	                'h4',
 	                { className: 'ui inverted header' },
@@ -27368,6 +27372,11 @@
 	                  )
 	                )
 	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              null,
+	              _react2.default.createElement(_html2.default, { html: '<a href="http://feedjit.com/ir1/0879a6ca67ae4c255d755758388439ab/"><img src="http://feedjit.com/b/0879a6ca67ae4c255d755758388439ab.png" alt="" border="0" ISMAP /></a>' })
 	            )
 	          )
 	        )
