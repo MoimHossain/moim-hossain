@@ -1,3 +1,7 @@
+
+.thumbImage {
+  height: 200px !important; 
+}
 .banner {
   background-image: url(https://drscdn.500px.org/photo/142964157/m%3D900/24ba757c4f7c69d5556102edea0777d9)!important;
   background-size:100%!important;
@@ -78,6 +82,8 @@
       .ui.fixed.menu {
         display: none !important;
       }
+
+
       .secondary.pointing.menu .item,
       .secondary.pointing.menu .menu {
         display: none;
@@ -85,6 +91,11 @@
       .secondary.pointing.menu .toc.item {
         display: block;
       }
+
+      .ui.fixed.menu.mobileMenu {        
+        display: block !important;
+      }
+
       .masthead.segment {
         min-height: 300px;
       }
@@ -151,3 +162,4 @@
 .release-table {
 	width: 80%  !important;
 }
+

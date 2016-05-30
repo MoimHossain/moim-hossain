@@ -13,7 +13,8 @@ export default class Photography extends Component {
 
     componentDidMount() {
       var scope = this;
-      $.get('http://rss2json.com/api.json?rss_url=https://500px.com/moimHossain/rss', function (argument) {        
+      $.get('http://rss2json.com/api.json?rss_url=https://500px.com/moimHossain/rss', function (argument) {
+        console.log(argument)
         scope.setState({
           rss: argument
         });
@@ -27,12 +28,14 @@ export default class Photography extends Component {
               <Banner caption="Enjoy!"></Banner>
               <div className="ui vertical stripe segment">
                 <div className="ui middle aligned stackable grid container">
-
                     <div className="ui link cards">
                       {
                         items.map((photo, index)=> {
                           return (
-                            <Photo key={index} photo={photo}></Photo>
+                            <Photo 
+                              key={index} 
+                              photo={photo} 
+                              pubDate={photo.pubDate}></Photo>
                             );
                         })
                       }
